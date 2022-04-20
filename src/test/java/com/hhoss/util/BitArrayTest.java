@@ -99,6 +99,7 @@ public class BitArrayTest {
 		return new File(App.getConfPath(),s);
 	}
 	
+	// -∞,+∞
 	public static void main(String[] args){
 		BitArray ba = genBitArray(256);
 		System.out.println(ba.toString0(4));
